@@ -1,4 +1,4 @@
-# iBrgyPay
+# BrgyPay
 
 > Trustless escrow for Philippine barangay certificate fee payments — built on Stellar.
 
@@ -52,7 +52,7 @@ LGU can plug into an existing system like iBrgy with one API endpoint.
 soroban contract build
 ```
 
-Output: `target/wasm32-unknown-unknown/release/ibrgy_pay.wasm`
+Output: `target/wasm32-unknown-unknown/release/brgypay_escrow.wasm`
 
 ## Test
 
@@ -63,15 +63,13 @@ cargo test
 All 5 tests should pass with output confirming happy path, edge cases, and state.
 
 ## Deploy to testnet
+`CAENNOHBSBPNM6ZZ7EKMSKUB4VZWED6L6RKUGPFXJFCAWDKOQWO5W2GU`
 
-```bash
-soroban contract deploy \
-  --wasm target/wasm32-unknown-unknown/release/ibrgy_pay.wasm \
-  --source YOUR_SECRET_KEY \
-  --network testnet
-```
+Explorer: 
+https://stellar.expert/explorer/testnet/contract/CAENNOHBSBPNM6ZZ7EKMSKUB4VZWED6L6RKUGPFXJFCAWDKOQWO5W2GU
 
-Returns: `CONTRACT_ID`
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/64d18129-a732-4785-b6b5-8e2e8d2e396b" />
+
 
 ## Initialize the contract
 
