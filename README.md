@@ -34,7 +34,7 @@ contract that only releases funds when a certificate is officially issued.
 - **Trustlines** — resident opts in to USDC before paying
 - **Clawback** — admin can reclaim funds on fraud detection
 
-## Vision and purpose
+## Target Users
 
 42,000 barangays in the Philippines collect certificate fees daily.
 iBrgyPay creates an auditable, corruption-resistant payment layer that any
